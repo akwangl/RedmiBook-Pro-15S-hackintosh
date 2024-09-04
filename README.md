@@ -58,4 +58,4 @@ SSDT-BTIF.aml | 开启S3睡眠
 
 
 ## 感谢
-[JokerAB](https://github.com/JokerAB)、`Lynx`、`维奇` 提供的帮助
+[JokerAB](https://github.com/JokerAB)、`Lynx`、[维奇](https://github.com/weachy) 提供的帮助
