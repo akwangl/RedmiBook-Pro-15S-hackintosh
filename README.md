@@ -56,6 +56,16 @@ SSDT-BTIF.aml | 开启S3睡眠
 ## 白果网卡
 目前仅测试过两块白果网卡`BCM94360CS2`、`BCM94360Z4`这两块网卡蓝牙正常， WI-FI无法使用。在windows中网卡是正常使用，Hackintool能够识别PCIE地址但是无法使用Wi-Fi
 
+## 内置麦克风
+1. Set csr-active-config to 01000000.
+2. [Download](https://github.com/qhuyduong/AMDMicrophone/releases/latest) the kext from Github Actions.
+3. Copy it to /Library/Extensions/.
+
+```shell
+sudo cp -r AMDMicrophone.kext /Library/Extensions/
+```
+
+![BetterDisplay](images/内置麦克风.jpg)
 
 ## 感谢
 [JokerAB](https://github.com/JokerAB)、`Lynx`、[维奇](https://github.com/weachy) 提供的帮助
