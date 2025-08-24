@@ -31,6 +31,12 @@ NootedRed（原版） |
 
 > 顺序上请注意BFixup需要在NootedRed之前
 
+首次启动先使用终端关闭硬件加速，设置好opengl再开启硬件加速
+```shell
+# 关闭硬件加速
+/Applications/Google\ Chrome.app --args --disable-gpu
+```
+
 用chrome浏览器打开`chrome://flags/`
 ![chrome开启OpenGl](images/chrome开启OpenGl.png)
 
